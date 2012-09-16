@@ -79,9 +79,12 @@ drsmith.phys@gmail.com
 
 use strict;
 use warnings;
-use Time::HiRes;
 
 package TinyTimer;
+
+use Time::HiRes;
+
+my $VERSION = 1.0;
 
 sub new {
 	my $class = shift;
